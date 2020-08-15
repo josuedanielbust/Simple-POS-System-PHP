@@ -52,7 +52,6 @@
         let products = document.querySelectorAll('section.products > .product');
         let billProducts = document.querySelector('section.bill > .bill-products');
         let productsInput = document.querySelector('section.bill #products');
-        let printButton = document.querySelector('section.bill input[type="submit"]');
 
         productsInput.value = '';
         
